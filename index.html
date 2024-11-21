@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/512ff9c5d1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles/output.css"/>
+    <title>Rancho's Burguer - A melhor hamburgueria!</title>
+</head>
+<body>
+ 
+    <!--HEADER-->
+<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+  <div class="w-full h-full flex flex-col justify-center items-center">
+    <img
+    src="./imgs/bg3.png"
+    alt="Logo Devbuger"
+    class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+    />
+    <h1 class="text-4x1 mt-4 mb-2 font-bold text-white">Rancho's Burger</h1>
+    
+    <span class=" text-white font-medium"> Rua dev 10, Santana de Parnaiba - SP </span>
+
+    <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+        <span class="text-white font-medium">Seg á Dom - 18:00 as 23:00</span>
+    </div>
+  </div>
+
+</header>
+      <!--FIM HEADER-->
+
+  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    Conheça nosso menu
+  </h2>
+   <!--Menu-->
+        <div id="menu">
+            <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+             <!--itens 1-->
+             <div class="flex gap-2">
+                <img
+                src="./imgs/hamb-1.png"
+                alt="Hamburguer Smash"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                    <p class="font-bold"> Hamburguer Smash</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, queijo prato e maionese da casa</p>
+                 
+                 <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                         data-name="Hamburguer Smash"
+                         data-price="18.90"
+                         >
+                         
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+
+
+                 </div>
+                
+                </div>
+             </div>
+            <!--fim itens-->
+
+                <!--itens 2-->
+                <div class="flex gap-2">
+                  <img
+                  src="./imgs/hamb-2.png"
+                  alt="Hamburguer Duplo"
+                  class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                  />
+  
+                  <div>
+                      <p class="font-bold"> Hamburguer Duplo</p>
+                      <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, queijo prato e maionese da casa</p>
+                   
+                   <div class="flex items-center gap-2 justify-between mt-3">
+                      <p class="font-bold text-lg">R$ 32.90</p>
+                      <button 
+                           class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                           data-name="Hamburguer Duplo"
+                           data-price="32.90"
+                           >
+                           
+                          <i class="fa fa-cart-plus text-lg text-white"></i>
+                      </button>
+  
+  
+                   </div>
+                  
+                  </div>
+               </div>
+              <!--fim itens-->        
+              
+               <!--itens 3-->
+                <div class="flex gap-2">
+                  <img
+                  src="./imgs/hamb-3.png"
+                  alt="Hamburguer Max cheedar"
+                  class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                  />
+  
+                  <div>
+                      <p class="font-bold"> Hamburguer Max cheedar</p>
+                      <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, queijo Cheedar e maionese da casa</p>
+                   
+                   <div class="flex items-center gap-2 justify-between mt-3">
+                      <p class="font-bold text-lg">R$ 45.00</p>
+                      <button 
+                           class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                           data-name=" Hamburguer Max cheedar"
+                           data-price="45.00"
+                           >
+                           
+                          <i class="fa fa-cart-plus text-lg text-white"></i>
+                      </button>
+  
+  
+                   </div>
+                  
+                  </div>
+               </div>
+              <!--fim itens--> 
+               
+
+              <!--itens 4-->
+                <div class="flex gap-2">
+                  <img
+                  src="./imgs/hamb-4.png"
+                  alt="Hamburguer Salad"
+                  class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                  />
+  
+                  <div>
+                      <p class="font-bold"> Hamburguer Salad</p>
+                      <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, com saladas e maionese da casa</p>
+                   
+                   <div class="flex items-center gap-2 justify-between mt-3">
+                      <p class="font-bold text-lg">R$ 33.60</p>
+                      <button 
+                           class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                           data-name="Hamburguer Salad"
+                           data-price=" 33.60"
+                           >
+                           
+                          <i class="fa fa-cart-plus text-lg text-white"></i>
+                      </button>
+  
+  
+                   </div>
+                  
+                  </div>
+               </div>
+              <!--fim itens--> 
+
+               <!--itens 5-->
+               <div class="flex gap-2">
+                <img
+                src="./imgs/hamb-5.png"
+                alt="Hamburguer Big Salad"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                    <p class="font-bold"> Hamburguer Big Salad</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 190g, 2 hambugers, salada e maionese da casa</p>
+                 
+                 <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 36.00</p>
+                    <button 
+                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                         data-name="Hamburguer Big Salad"
+                         data-price="36.00"
+                         >
+                         
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+
+
+                 </div>
+                
+                </div>
+             </div>
+            <!--fim itens--> 
+
+             <!--itens 6-->
+             <div class="flex gap-2">
+              <img
+              src="./imgs/hamb-6.png"
+              alt="Hamburguer Mix carne"
+              class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+              />
+
+              <div>
+                  <p class="font-bold"> Hamburguer Mix carne </p>
+                  <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, queijo prato, carnes bovinas e maionese da casa</p>
+               
+               <div class="flex items-center gap-2 justify-between mt-3">
+                  <p class="font-bold text-lg">R$ 45.00</p>
+                  <button 
+                       class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                       data-name="Hamburguer Mix carne"
+                       data-price="45.00"
+                       >
+                       
+                      <i class="fa fa-cart-plus text-lg text-white"></i>
+                  </button>
+
+
+               </div>
+              
+              </div>
+           </div>
+          <!--fim itens--> 
+
+           <!--itens 7-->
+           <div class="flex gap-2">
+            <img
+            src="./imgs/hamb-7.png"
+            alt="Hamburguer Big Onion"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+            <div>
+                <p class="font-bold"> Hamburguer Big Onion</p>
+                <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, Cebolas Fritas, queijo prato e maionese da casa</p>
+             
+             <div class="flex items-center gap-2 justify-between mt-3">
+                <p class="font-bold text-lg">R$ 40.00</p>
+                <button 
+                     class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                     data-name="Hamburguer Big Onion"
+                     data-price="40.00"
+                     >
+                     
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+
+
+             </div>
+            
+            </div>
+         </div>
+        <!--fim itens--> 
+
+         <!--itens 8-->
+         <div class="flex gap-2">
+          <img
+          src="./imgs/hamb-8.png"
+          alt="Hamburguer Vegano"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+
+          <div>
+              <p class="font-bold"> Hamburguer Vegano</p>
+              <p class="text-sm"> Pão levinho de fermentação natural da trigou, buger 160g, Com Saladas e cenoura</p>
+           
+           <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 18.00</p>
+              <button 
+                   class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                   data-name="Hamburguer Vegano"
+                   data-price=" 18.00"
+                   >
+                   
+                  <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+
+
+           </div>
+          
+          </div>
+       </div>
+      <!--fim itens--> 
+              
+    </div>
+            </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+          <h2 class="font-bold text-3x1">
+            Bebidas
+          </h2>
+        </div>
+          
+        <!--Bebidas-->
+        <div class="grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!--itens 1-->
+            <div class="flex gap-2 w-full">
+            <img
+            src="./imgs/refri-1.png"
+            alt="Coca 350ml"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+  
+            <div class="w-full">
+                <p class="font-bold"> Coca 350ml</p>
+              
+              <div class="flex items-center gap-2 justify-between mt-3">
+                <p class="font-bold text-lg">R$ 3.00</p>
+                <button 
+                      class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                      data-name="Coca 350ml"
+                      data-price=" 3.00"
+                      >
+                      
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+  
+  
+              </div>
+            
+            </div>
+          </div>
+        <!--fim itens--> 
+
+                    <!--itens 2-->
+                    <div class="flex gap-2 w-full">
+                      <img
+                      src="./imgs/refri-2.png"
+                      alt="Coca 350ml"
+                      class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                      />
+            
+                      <div class="w-full">
+                          <p class="font-bold"> Guaraná 350ml</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                          <p class="font-bold text-lg">R$ 3.00</p>
+                          <button 
+                                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                                data-name="Guaraná 350ml"
+                                data-price=" 3.00"
+                                >
+                                
+                              <i class="fa fa-cart-plus text-lg text-white"></i>
+                          </button>
+            
+            
+                        </div>
+                      
+                      </div>
+                    </div>
+                  <!--fim itens--> 
+
+</div>
+   <!--Fim Menu-->
+   
+ 
+</body>
+</html> 
+
